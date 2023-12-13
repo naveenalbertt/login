@@ -1,0 +1,47 @@
+body{
+    background-image: url("/media/image.jpg ");
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    /* width: 500px; */
+    /* margin: 200px auto; */
+    /* text-align: center; */
+    border: 2px solid black;
+    width: 500px;
+    margin: 150px auto;
+    padding: 10PX 20PX 30PX;
+    border-radius: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+.input input{
+    display: block;
+    width: 80%;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px black;
+    margin: 3px 0px 20px;
+    padding:  5px 10px;
+    
+
+
+}
+input:focus{
+    background-color:lightgray;
+}
+.submit{
+    text-align: center;
+    
+}
+button{
+    background-color:lightgray;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.radio input{
+    accent-color: black;
+
+}
